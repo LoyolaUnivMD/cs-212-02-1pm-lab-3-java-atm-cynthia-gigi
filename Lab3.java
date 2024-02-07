@@ -25,8 +25,6 @@ class Lab3 {
         double totalDeposit = 0;
         double totalWithdrawn = 0;
 
-        input.nextLine(); //debugs the error with the code skipping lines for the 2nd string input
-
         System.out.println("Here are your options: Deposit - 1, Withdraw - 2, Check Balance - 3, and Exit - 4");
         System.out.println("What would you like to do? Enter a number 1 through 4: ");
         int choice = input.nextInt();
