@@ -1,15 +1,29 @@
-ask for user's name
+Final Algorithm:
+1. Ask user for their name
+2. Create inital balance of $212.90 (use decimal format)
+3. Ask user which options they want to do: Deposit, Withdraw, Give Balance, Exit
+4. If user chooses anything other than the options above,
+     i. Tell user it is an error and to input again
+   Else if the user chooses deposit,
+      i. Tell user their current balance
+     ii. Ask user how much they want to deposit
+    iii. Add that amount to the total balance
+     iv. Tell the user their updated balance
+   Else if the user chooses withdrawal,
+      i. Tell user their current balance
+     ii. Ask user how much they want to withdraw
+    iii. Subtract that amount to the total balance
+     iv. Tell the user their updated balance
+   Else if the user chooses balance,
+      i. Tell user their current balance
+   Else if the user chooses exit,
+      i. Break from the loop
+5. Ask the user if they want their receipt printed or emailed
+6. Display the total amount deposited/withdrawn
+7. Thank the user for using the program
+8. If the user chose their receipt to be printed,
+      i. Remind them to check their email
+   Else,
+      i. Remind the user to take their receipt
 
-1. Initialize balance variable -- double -- $212.90
-- use decimal format to make this number formatted correctly
 
-4. Choose an option Deposit, Withdraw, give Balance, Exit
-4a. print error message if user doesnt enter one of the options
-5. Based on what they choose send them to that action
-6. Deposit, give them the value and ask how much they want to deposit and output new value
-7. Withdraw, give them the value and ask how much they want to withdraw and output new value
-8. Give Balance, print current balance 
-9. Exit, stop looping
-- ask user if they want a receipt printed or emailed
-display total amount deposited/withdrawn and a thank you message
-remind user to take receipt
