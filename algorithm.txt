@@ -1,1 +1,15 @@
+ask for user's name
 
+1. Initialize balance variable -- double -- $212.90
+- use decimal format to make this number formatted correctly
+
+4. Choose an option Deposit, Withdraw, give Balance, Exit
+4a. print error message if user doesnt enter one of the options
+5. Based on what they choose send them to that action
+6. Deposit, give them the value and ask how much they want to deposit and output new value
+7. Withdraw, give them the value and ask how much they want to withdraw and output new value
+8. Give Balance, print current balance 
+9. Exit, stop looping
+- ask user if they want a receipt printed or emailed
+display total amount deposited/withdrawn and a thank you message
+remind user to take receipt
