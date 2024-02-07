@@ -1,6 +1,6 @@
 Final Algorithm:
 1. Ask user for their name
-2. Create inital balance of $212.90 (use decimal format)
+2. Create initial balance of $212.90 (use decimal format)
 3. Ask user which options they want to do: Deposit, Withdraw, Give Balance, Exit
 4. If user chooses anything other than the options above,
      i. Tell user it is an error and to input again
