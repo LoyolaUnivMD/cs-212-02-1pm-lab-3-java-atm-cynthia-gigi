@@ -1,0 +1,6 @@
+choice | Amount | Output
+D	     | 99	    | 1099
+W		   | 99     | 1000
+W	     | 80	    | 920
+B		   |        | 1000
+E		   |        | 
